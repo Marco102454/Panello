@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif; /* Establece la fuente de texto deseada */
+    color: white; /* Color de texto blanco */
+}
+
+.register-containers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.register-titles {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.input-containers {
+    margin-bottom: 15px;
+    width: 40%;
+}
+
+.labels {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-fields {
+    width: 100%;
+    padding: 8px; /* Reducir el relleno */
+    font-size: 14px;
+    border: 1px solid white;
+    border-radius: 3px;
+    background-color: white; /* Cambia el fondo a blanco */
+    color: black; /* Cambia el color del texto a negro */
+}
+
+.register-buttons {
+    width: 100%;
+    max-width: 200px; /* Establece un ancho máximo para el botón */
+    padding: 10px;
+    background-color: #02cf2e;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center; /* Alinea el texto al centro */
+}
+
+.register-buttons:hover {
+    background-color: #0056b3;
+}
+
+.error-messages {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    margin-top: 10px;
+}

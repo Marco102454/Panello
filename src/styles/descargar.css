@@ -1,0 +1,35 @@
+.descargar-container {
+  text-align: center;
+  margin-top: 10px;
+  background-image: url('../assets/descargar.png'); /* Ruta de la imagen de fondo */
+  background-size: cover; /* La imagen cubrirá todo el contenedor */
+  background-position: center; /* La imagen se centrará en el contenedor */
+  height: 90vh; /* Ajustamos la altura al 90% del viewport */
+  display: flex; /* Utilizamos flexbox para centrar el contenido verticalmente */
+  flex-direction: column; /* Alineamos el contenido verticalmente */
+  justify-content: center; /* Centramos verticalmente el contenido */
+  padding: 10px; /* Añadir un espacio alrededor del contenido */
+}
+
+.descargar-container h2 {
+  color: #f8f8f8; /* Color de texto negro */
+}
+
+.descargar-container p {
+  color: #000000; /* Color de texto gris */
+}
+
+.descargar-link {
+  display: inline-block;
+  background-color: #4CAF50; /* Verde */
+  color: white; /* Color de texto blanco */
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.descargar-link:hover {
+  background-color: #45a049; /* Cambio de color al pasar el cursor */
+}

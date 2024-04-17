@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    font-family: 'Share Tech', sans-serif;
+}
+
+header {
+    position: absolute;
+    bottom: 40%;
+    padding: 0 50px;
+}
+
+header h1 {
+    font-size: 5rem;
+}
+
+header h2 {
+    font-size: 2rem;
+}
+
+header p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: black;
+}
+
+
+header button img {
+    display: none;
+}
+
+header button:hover img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 160px;
+}
+
+header button:hover {
+    width: 160px;
+}
+
+.emp {
+    position: absolute;
+    height: 600px;
+    width: 550px;
+    right: 7%;
+    bottom: 0;
+    z-index: 999;
+}

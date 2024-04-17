@@ -1,0 +1,69 @@
+.contenedor {
+    width: 100vw; /* Ancho al 100% del viewport */
+    height: 100vh; /* Alto al 100% del viewport */
+    background-image: url('../assets/paisajesolar.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* La imagen cubrirá toda la pantalla */
+    background-position: center; /* La imagen se centrará */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h2 {
+    background-color: green;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    max-width: 400px;
+    border-radius: 10px;
+  }
+  
+  p {
+    color: rgb(255, 255, 255); /* Color del texto blanco */
+    font-size: 20px; /* Tamaño de la fuente más grande */
+    font-family: Arial, sans-serif; /* Tipo de letra Arial o fuente sans-serif */
+    text-align: left; /* Alineación del texto a la izquierda */
+    line-height: 1.6; /* Altura de línea aumentada */
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  
+  .boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #388e3c;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-decoration: none;
+  }
+  
+  .boton:hover {
+    background-color: #2e602b;
+  }
+  
+  @media (max-width: 768px) {
+    img {
+      width: 100%;
+    }
+  }
+  

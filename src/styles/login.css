@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif; /* Establece la fuente de texto deseada */
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Asegura que los elementos se apilen verticalmente */
+    height: 100vh; /* Establece la altura del contenedor a toda la altura de la pantalla */
+  }
+  
+  .login-title {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 24px;
+    color: white; /* Cambia el color del título a blanco */
+  }
+  
+  .input-container {
+    margin-bottom: 15px;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 5px;
+    color: rgb(255, 255, 255); /* Cambia el color del texto de las etiquetas a blanco */
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: rgb(17, 17, 17); /* Cambia el color del texto de los campos de entrada a blanco */
+    background-color: rgb(255, 255, 255); /* Establece un fondo semitransparente */
+  }
+  
+  .login-button {
+    width: 100%;
+    max-width: 200px; /* Establece un ancho máximo para el botón */
+    padding: 10px;
+    background-color: #02cf2e;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center; /* Alinea el texto al centro */
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
